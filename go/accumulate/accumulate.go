@@ -1,17 +1,11 @@
 package accumulate
 
-func accumulate(s string, op string) string {
+//Accumulate performs the specified operation on the collection
+func Accumulate(in []string, conv func(string) string) []string {
+	retVal := make([]string, len(in))
 
-	return ""
-
-}
-
-func echo(s string) string {
-
-	return ""
-}
-
-func capitalize(s string) string {
-
-	return ""
+	for i, v := range in {
+		retVal[i] = conv(v)
+	}
+	return retVal
 }
