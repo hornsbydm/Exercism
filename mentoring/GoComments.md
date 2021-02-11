@@ -13,6 +13,9 @@ Good work! It passes testing. I noticed a lot of spacing and commenting abnormal
 
 A good editor uses these tools automatically for you. I personally use VSCode.
 
+---
+
+In Go parameters are passed by value and therefore it is idiomatic to modify a parameter that has been passed into the func. However, do be sure to realize that once you modify the parameter you no longer have access to the original value. In a more complex function this could cause unexpected errors and bugs. Instead consider temporary variables, named return parameters, factoring the logic out into a separate func, or early returns to name a few!
 
 ## 3. Hamming
 
