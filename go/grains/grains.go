@@ -4,7 +4,7 @@ import "errors"
 
 // Total returns the total number of grains on the chessboard.
 func Total() uint64 {
-	return 0xFFFF_FFFF_FFFF_FFFF
+	return 1<<64 - 1
 }
 
 // Square returns the number of grains on a given square (1-based).
