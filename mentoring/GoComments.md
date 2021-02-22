@@ -77,3 +77,25 @@ Does this make it easier to read?
 
 ---
 
+## Space Age
+Good work! Selecting a switch/case structure makes a lot of sense here. Since most of the data here is constant and we will only ever need one at a time it makes much more sense to use a switch over a map here.
+
+---
+
+I do like that you made the math easy to read. There will be no runtime penalty for this as the compiler will simplify this for us.
+
+---
+
+Be sure to realize that you are not actually using type Planet. Go uses a concept called "Duck Typing". Essentially if it acts like a duck and quacks like a duck it must be a duck. That is why you can use string literals in place of type Planet.
+
+---
+
+This is a nice textbook example of a clean solution to this exercise.
+
+Would it make more sense to use a switch/case structure here instead of a map?
+
+---
+
+This is a good solution! However, do be sure to run `go test -bench . -benchmem` having the map in the func scope means that each iteration you will building the map in memory and tearing it down. This can be expensive to do. 
+
+Since the data is constant and you will only ever need to access 1 planet at a time consider rewriting this using a switch/case structure.

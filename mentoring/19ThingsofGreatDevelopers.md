@@ -1,4 +1,4 @@
-19 things I stole from great developers
+19 Things I Stole From Great Developers
 =======================================
 by: Daniel Anderson
 
