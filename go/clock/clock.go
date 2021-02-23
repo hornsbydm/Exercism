@@ -16,19 +16,22 @@ type Clock struct {
 // New creates a Clock.
 func New(h int, m int) (c Clock) {
 	c = Clock{(h*minutesInHour + m) % minutesInDay}
-	return c.normalize()
+	c.normalize()
+	return c
 }
 
 // Subtract decrements clock by m minutes.
 func (c Clock) Subtract(m int) Clock {
 	c.m -= m
-	return c.normalize()
+	c.normalize()
+	return c
 }
 
 // Add increments clock by m minutes.
 func (c Clock) Add(m int) Clock {
 	c.m += m
-	return c.normalize()
+	c.normalize()
+	return c
 }
 
 // String represents time as string in the format HH:MM.
@@ -37,10 +40,10 @@ func (c Clock) String() string {
 }
 
 // Normalize Clock time to 24 hour time.
-func (c Clock) normalize() Clock {
+func (c *Clock) normalize() {
 	c.m %= 1440
 	if c.m < 0 {
 		c.m += minutesInDay
 	}
-	return c
+	return
 }
