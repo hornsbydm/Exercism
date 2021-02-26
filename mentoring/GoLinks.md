@@ -5,7 +5,9 @@ Go Links
 - [Quick Ref](https://quickref.me/golang)
 - [Gophercises](https://gophercises.com/)
 - [Go Playground](https://play.golang.org/)
-- 
+- [Build a Single-Page App with Go and Vue](https://developer.okta.com/blog/2018/10/23/build-a-single-page-app-with-go-and-vue)
+- [Crash Course on Go Interfaces](https://www.calhoun.io/crash-course-on-go-interfaces/)
+- [Visualizing Git](http://git-school.github.io/visualizing-git/)
 
 blog.gopheracademy.com
 ----------------------
@@ -20,15 +22,27 @@ medium.com
 - [High-Performance String Building in Go (Golang)](https://medium.com/swlh/high-performance-string-building-in-go-golang-3fd99b9ca856)
 - [Rate Limiting in Go](https://medium.com/@justin.graber/rate-limiting-in-golang-f3ed2c62df36)
 - [Switch vs if-else in Go](https://daryl-ng.medium.com/switch-vs-if-else-in-go-74b7d40aa70a)
+- [Build a REST-API in GoLang with Swagger and Hot Reload of everything](https://medium.com/swlh/build-a-rest-api-in-golang-with-swagger-and-hot-reload-of-everything-6247a8ae8618)
+- [The Black Magic of Oauth in Golang](https://medium.com/@hfogelberg/the-black-magic-of-oauth-in-golang-part-1-3cef05c28dde)
 
 Go Videos
 =========
+
+Go Codebases
+============
+- [go-echarts/go-echarts](https://github.com/go-echarts/go-echarts)
+- (https://github.com/WireGuard/wireguard-go)
+- (https://github.com/anatol/booster)
+- (https://github.com/anatol/luks.go)
+- (https://github.com/preslavmihaylov/todocheck)
+- [rsc/2fa](https://github.com/rsc/2fa)
+- [matsuyoshi30/germanium](https://github.com/matsuyoshi30/germanium)
 
 
 Go Books
 ========
 
-*Starter Books**
+Starter Books
 ----
 
 ### [The Little Go Book](http://openmymind.net/The-Little-Go-Book/) *Free*
@@ -45,13 +59,8 @@ This companion book contains material initially written specifically for this ev
 ### [Learning Go](http://www.miek.nl/go) *Free*
 A online book to start learning Golang. It features numerous exercises (and answers).
 
-The [markdown source is available on Github](https://github.com/miekg/learninggo).
-
 ### [Go for Javascript Developers](https://github.com/pazams/go-for-javascript-developers) *Free*
 This book helps Javascripters become Gophers. Outlining the differences between these languages makes it easier to switch back and forth, and can help mitigate potential issues when doing so.
-
-### [Learn Go With Tests](https://quii.gitbook.io/learn-go-with-tests/) *Free*
-Learn Go guided by tests. Write a test, learn a new Go language feature to make it pass, refactor and repeat. You'll get a grounding in test-driven development and importantly understand the principles behind it. 
 
 ### [Go in Action](https://www.manning.com/books/go-in-action)
 Go in Action introduces the Go language, guiding you from inquisitive developer to Go guru. The book begins by introducing the unique features and concepts of Go. (We assume you're up to speed with another programming language already, so don't expect to spend a lot of time rehearsing stuff you already know.) Then, you'll get hands-on experience writing real-world applications including web sites and network servers, as well as techniques to manipulate and convert data at speeds that will make your friends jealous. In the final chapters, you'll go in-depth with the language and see the tricks and secrets that the Go masters are using to make their applications perform. For example, you'll learn to use Go's powerful reflection libraries and work with real-world examples of integration with C code.
@@ -203,5 +212,3 @@ Let's Go teaches you step-by-step how to create fast, secure and maintainable we
 
 ### [Go Brain Teasers](https://gum.co/Qkmou)
 The Go programming language is a simple one, but like all other languages it has its quirks. This book uses these quirks as a teaching opportunity. By understanding the gaps in your knowledge - you'll become better at what you do.
-
-This book contains 25 mind bending quizzes and answers. You can view a sample chapter [here](https://www.353solutions.com/go-brain-teasers).
